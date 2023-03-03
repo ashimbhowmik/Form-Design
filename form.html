@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main class="contaner1">
+      <section class="img-container">
+        <h1>
+          <i>
+            New in My <br />
+            Site ?</i
+          >
+        </h1>
+
+        <div class="img">
+          <img src="signup.png" alt="" />
+        </div>
+      </section>
+      <section class="contaner2">
+        <form class="form-container" id="form-desgin">
+          <h1>SignUp</h1>
+          <section class="form-content1">
+            <h3>Personal</h3>
+            <div class="">
+              <label for="name">Name</label><br />
+              <input type="text" name="name" id="name" placeholder="name" />
+            </div>
+            <div class="">
+              <label for="email">Email</label><br />
+              <input type="email" name="email" id="email" placeholder="email" />
+            </div>
+            <div class="">
+              <label for="name">Password</label><br />
+              <input
+                type="password"
+                name="password"
+                id="pass"
+                placeholder="password"
+              />
+            </div>
+          </section>
+          <hr />
+          <section class="form-content2">
+            <h3>Contact</h3>
+            <div class="option-field">
+              <label for="phone">Phone</label><br />
+              <select id="phone" name="phone">
+                <option value="USA">Usa</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Bangladesh</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Mexico">Mexico</option>
+              </select>
+              <input
+                type="tel"
+                name="phone"
+                id="phn"
+                placeholder="phone number"
+              />
+            </div>
+            <div class="">
+              <label for="address">Address</label><br />
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="address"
+              />
+            </div>
+            <div class="content">
+              <div class="name-field">
+                <label for="zip">City</label><br />
+                <input type="text" name="city" id="city" placeholder="city" />
+              </div>
+              <div class="name-field">
+                <label for="zip">Zip code</label><br />
+                <input type="text" name="zip" id="zip" placeholder="zip" />
+              </div>
+              <div class="">
+                <label for="state">State</label><br />
+                <input
+                  type="text"
+                  name="state"
+                  id="state"
+                  placeholder="state"
+                />
+              </div>
+            </div>
+          </section>
+          <input type="submit" value="SignUp" class="btn" />
+        </form>
+      </section>
+    </main>
+
+    <script src="form.js"></script>
+  </body>
+</html>

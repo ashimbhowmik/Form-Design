@@ -1,0 +1,180 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faf7f5;
+}
+
+.contaner1 {
+  display: flex;
+}
+.img-container {
+  width: 50%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.img-container h1 {
+  font-size: 60px;
+  font-weight: 900;
+  position: absolute;
+  top: 140px;
+  left: 250px;
+  color: #2563eb;
+}
+.img-container img {
+  width: 650px;
+  height: 500px;
+}
+
+.img {
+  position: absolute;
+  top: 290px;
+  left: 370px;
+}
+.contaner2 {
+  width: 50%;
+}
+form label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#form-desgin {
+  margin-top: 40px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+}
+.form-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 45px 0px;
+  border-radius: 15px;
+}
+.form-container h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: -5px;
+}
+.form-content1 {
+  padding: 0 120px;
+  margin-bottom: 30px;
+  margin-top: -7px;
+}
+.form-content1 h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.form-content2 h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.form-content2 {
+  padding: 0 120px;
+}
+.option-field {
+  margin-bottom: 10px;
+}
+
+#name,
+#email,
+#pass,
+#address {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#state,
+#zip,
+#city {
+  margin-top: 6px;
+  width: 100%;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+.name-field {
+  margin-right: 15px;
+}
+
+#phone {
+  margin-top: 10px;
+  border-start-start-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-right: none;
+  border-top: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 10px 16px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+#phone:focus {
+  outline: none;
+}
+.option-field {
+  position: relative;
+}
+
+#phn {
+  border-left: none;
+  position: absolute;
+  top: 33px;
+  left: 140px;
+  width: 52%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  border-start-end-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+#phn:focus {
+  outline: none;
+}
+.img-country {
+  width: 10px;
+  height: 10px;
+}
+
+hr {
+  width: 60%;
+  opacity: 0.3;
+}
+
+.btn {
+  width: 61%;
+  margin-left: 120px;
+  margin-top: 30px;
+  padding: 12px 16px;
+  font-size: 15px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+}

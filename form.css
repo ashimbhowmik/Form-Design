@@ -61,7 +61,7 @@ form label {
 }
 .form-content1 {
   padding: 0 120px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: -7px;
 }
 .form-content1 h3 {
@@ -82,16 +82,17 @@ form label {
 #name,
 #email,
 #pass,
-#address {
+#address,
+#date {
   width: 100%;
-  padding: 10px 16px;
-  margin: 8px 0;
+  padding: 8px 12px;
+  margin: 5px 0;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 50px;
   background-color: #f8f8f8;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .content {
@@ -104,7 +105,7 @@ form label {
 #city {
   margin-top: 6px;
   width: 100%;
-  padding: 10px 16px;
+  padding: 8px 12px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 50px;
